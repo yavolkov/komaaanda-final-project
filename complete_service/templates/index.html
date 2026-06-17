@@ -92,14 +92,10 @@
 
                     <div class="mt-4">
                         <p class="mb-2"><span class="fw-semibold">Микрокатегория:</span> {{ microcategory }}</p>
-                        <p class="mb-0"><span class="fw-semibold">Уверенность заглушки:</span> {{ "%.0f" |
+                        <p class="mb-0"><span class="fw-semibold">Уверенность модели:</span> {{ "%.0f" |
                             format(confidence * 100) }}%</p>
                     </div>
 
-                    <div class="alert mt-4 mb-0 border-0" style="background-color: #DBE2EF; color: #112D4E;">
-                        Сейчас это тестовый ответ из <code>fake_model.py</code>. Когда появится настоящая модель,
-                        нужно будет сохранить такой же формат результата.
-                    </div>
                 </div>
             </div>
         </div>
